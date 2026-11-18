@@ -1,0 +1,14 @@
+{
+  "name": "studyflow-student-task-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack CRUD REST API mini project",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "node --watch server/app.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
